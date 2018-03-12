@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <title>Hugh Thornhill</title>
+  </head>
+  <body>
+    <header>
+      <div class="Profile">
+        <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAVdAAAAJGI2MTY3M2JlLWIyYjMtNGI5Yy05OWExLTQyMjc3ZmYxMWEzMg.jpg" height="128" width="128">
+      </div>
+      <h1>Hugh Thornhill</h1>
+      <h2>Photographer, Writer, Chef, Web Developer In Training</h2>
+      <ul>
+        <li><a href="#About">About Me</a></li>
+        <li><a href="#Photography">Photography</a></li>
+        <li><a href="#Goals">My Goals</a></li>
+        <li><a href="#Contact">Contact Me</a></li>
+        <li><a href="#Resume">Resume</a></li>
+      </ul>
+    </header>
+    <article>
+      <div id="About">
+        <h2>About Me</h2>
+        <p>Hello! My name is Hugh and welcome to my webpage. I'm a former photographer, writer, and am currently learning to become a full-stack web developer.</p>
+        <p>I'm originally from Honolulu, HI, and graduated from Mid-Pacific Institute in 2010. I then went to Sarah Lawrence College where I pursued a BA in photography and journalism.
+        <p>Upon graduating, I moved to NYC and decided to work as a game journalist for a little over a year. However, I decided it was not the career path I wanted to pursue. So I switched gears and worked as a chef for about a year and a half.</p>
+        <p>Life wasn't treating me all that well in the food industry though, so I decided that it was time for another career change. After consulting friends who were in the tech industry, pursuing in careers such as software engineering and app development, I decided to learn how to code. I've found it to be a much more engaging and decided to pursue a career in web development. Over time, I'll be updating this site with my work so you can all watch me grow as a web developer!
+        </p>
+      </div>
+      <div id="Photography">
+        <h2>Photography</h2>
+        <p>In addition to being a writer and chef, I've also pursued fine-art photography and photojournalism. Below are some examples of my work:</p>
+        <div class="gallery-container item">
+          <div class="item">
+            <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/388023_489349794427335_206164912_n.jpg?oh=3caf76fef93a27169ff00e2aa5511b05&oe=5B225EB1">
+          </div>
+          <div class="item">
+            <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/251844_489353324426982_281575565_n.jpg?oh=ae2dc3c76708805e0123a88f1a914158&oe=5B1BBDDA">
+          </div>
+          <div class="item">
+            <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/524253_481059701923011_674371814_n.jpg?oh=7a5440d51908913f7feaf36bb175d3b2&oe=5B085678">
+          </div>
+          <div class="item">
+            <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/524061_485614924800822_1430663108_n.jpg?oh=50bd3e3cb66bd086ac812f7ee66dd1ea&oe=5B189192">
+          </div>
+        </div>
+      </div>
+      <div id="Goals">
+        <h2>Goals</h2>
+        <p>My hope is to become a junior developer by the end of 2018. I would like to get ahead with my career as soon as possible, and hopefully a bootcamp will help me acheive this goal!</p>
+      </div>
+      <div id="Contact">
+        <h2>Contact</h2>
+        <a id="link" href="#">Email</a>
+        <a id="link" href="www.linkedin.com/in/hugh-thornhill-54928756">LinkedIn</a>
+      </div>
+      <div id="Resume">
+        <p>Have a look at my <a id="link" href="HUGH THORNHILL Resume V4-General or Tech.docx.pdf">resume</a>!</p>
+      </div>
+    </article>
+    <footer>
+      <div class="popup" onclick="myFunction()">© Hugh Thornhill 2018
+        <span class="popuptext" id="myPopup">That's my name! Don't wear it out!
+        </span>
+      </div>
+    </footer>
+    <script>
+      function myFunction() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+}
+    </script>
+  </body>
+</html>
