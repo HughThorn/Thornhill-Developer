@@ -102,11 +102,13 @@ article {
 }
 
 .item img {
-  width: 100%;
+  width: 50%;
   border: 2px solid white;
 }
 
 .gallery-container {
+/*  display: flex;
+  flex-wrap: wrap;*/
   margin-right: 10px;
   margin-left: 10px;
 }
